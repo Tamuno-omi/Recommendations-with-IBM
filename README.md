@@ -21,13 +21,12 @@ In order to build better recommendations for the users of IBM's platform, a func
 Use matrix factorization to make article recommendations to the users on the IBM Watson Studio platform
 
 ## File Descriptions
-There are four directories in this repository:
-#### data
-* `disaster_messages.csv`: CSV file containing over  messages sent during natural disasters.
-* `disaster_categories.csv`: CSV file containing 36 category labels for the messages in `disaster_messages.csv`.
-* `process_data.py`: Python script to run the ETL pipeline.  
-* `DisasterResponse.db`: SQLite database containing the merged, transformed and cleaned data that is ready for the machine learning pipeline
+The files in this repository are listed below:
+* `articles_community.csv`: CSV file containing detailed information about articles.
+* `user-item-interactions.csv`: CSV file containing user-article interactions.
 
-## Licensing, Authors, Acknowledgements
+* `Recommendations_with_IBM.ipynb`: Python notebook for Exploring the project data and building recommendation.  
+* `project_tests.py`: Test file for results
+## Licensing
 
 This project was done as part of the [Udacity Data Scientist Nanodegree Program](https://www.udacity.com/course/data-scientist-nanodegree--nd025).
