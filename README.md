@@ -1,5 +1,6 @@
 # Recommendations-with-IBM
-Introduction
+
+##Introduction
 
 For this project I analyzed the interactions that users have with articles on the IBM Watson Studio platform, and made recommendations using different methods.
 
