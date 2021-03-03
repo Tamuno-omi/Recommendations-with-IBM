@@ -6,17 +6,17 @@ For this project I analyzed the interactions that users have with articles on th
 
 The project is divided into the following tasks
 
-I. Exploratory Data Analysis
+#### I. Exploratory Data Analysis
 Here I explored the dataset provided for the project to gain a better understanding about the data and answer some required questions within the notebook.
 
-II. Rank Based Recommendations
+#### II. Rank Based Recommendations
 Since there are no current metrics to know if a user likes an article from the dataset provided, the number of user interactions with articles was used to determine the popularity of an article  
 
-III. User-User Based Collaborative Filtering
+#### III. User-User Based Collaborative Filtering
 
 In order to build better recommendations for the users of IBM's platform, a function was made to get similar users in terms of the items they have interacted with. These items could then be recommended to the similar users. This would be a step in the right direction towards more personal recommendations for the users.
 
-IV. Matrix Factorization
+#### IV. Matrix Factorization
 
 Use matrix factorization to make article recommendations to the users on the IBM Watson Studio platform
 
